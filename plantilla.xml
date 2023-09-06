@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="actas.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">[Introducir datos]</title>
+                <editor>
+                    <persName>
+                        <surname>[Introducir datos]</surname>
+                        <forename>[Introducir datos]</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <p>Edición digital de las Actas Capitulres (<date>2023-2026</date>)</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Oficina del Historiador de la Ciudad de la Habana</publisher>
+                <pubPlace>Berlín</pubPlace>
+                <pubPlace>La Habana</pubPlace>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Oficina del Historiador de la Ciudad de la Habana</institution>
+                        <collection>Fondo Gobierno de la Habana. Serie Actas del ayuntamiento del
+                            periodo colonial (1550-1898)</collection>
+                        <idno>
+                            <idno type="shelfmark">[Introducir datos]</idno>
+                            <idno type="uri">[Introducir datos]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>[Introducir datos]</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <orgName>Gobierno de La Habana</orgName>
+                <placeName>La Habana</placeName>
+            </creation>
+            <langUsage>
+                <language ident="es">Español</language>
+            </langUsage>
+            <abstract xml:lang="es">
+                <p>[Introducir datos]</p>
+            </abstract>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb/>
+                <p>[Editar texto aquí]</p>
+            </div>
+        </body>
+    </text>
+</TEI>
