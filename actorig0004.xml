@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="actas.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Demanda de Gregoria de Herrara por la venta de una negra enferma por parte de Damián de Contreras</title>
+                <editor>
+                    <persName>
+                        <surname>Echarri</surname>
+                        <forename>Bryan</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <p>Edición digital de las Actas Capitulres (<date>2023-2026</date>)</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Oficina del Historiador de la Ciudad de la Habana</publisher>
+                <pubPlace>Berlín</pubPlace>
+                <pubPlace>La Habana</pubPlace>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Oficina del Historiador de la Ciudad de la Habana</institution>
+                        <collection>Fondo Gobierno de la Habana. Serie Actas del ayuntamiento del
+                            periodo colonial (1550-1898)</collection>
+                        <idno>
+                            <idno type="shelfmark">[Introducir datos]</idno>
+                            <idno type="uri">[Introducir datos]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Manuscrito escrito con tinta ferrogálica, en buen estado de conservación. Se encuentra restuarado</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <orgName>Gobierno de La Habana</orgName>
+                <placeName>La Habana</placeName>
+                <date when="1688-07-02"> 2 de Julio de 1688</date>
+            </creation>
+            <langUsage>
+                <language ident="es">Español</language>
+            </langUsage>
+            <abstract xml:lang="es">
+                <p>Gregoria de Herrera, morena libre presenta demanda contra Damián de Contreras por venderle una negra sin especificar las enfermedades que padecía en la escritura de venta. Mención también a María del Castillo, viuda de Pedro de Hoses que presenta apelación a favor de sus hijos de quien es tutora y curadora. </p>
+            </abstract>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+          <div type="original">
+                <pb n="1r" facs="actorig00013.tif"/>
+              <fw type="folNum">380r</fw>
+                <p>En la <choice>
+                        <abbr>ciu<hi rendition="#sup">d</hi>.</abbr>
+                        <expan>ciudad</expan>
+                    </choice> de la <choice>
+                        <orig>Havana</orig>
+                        <reg>Habana</reg>
+                    </choice> en <date when="1688-07-02" calendar="#Gregorian">dos <choice>
+                            <orig>dias</orig>
+                            <reg>días</reg>
+                        </choice> del mes de Julio</date></p>
+            </div>
+            <div>
+                <pb n="1v" facs="actorig00014.tif"/>
+                <p>
+                    <date when="1688-07-02" calendar="#Gregorian">de <choice>
+                            <orig>mill</orig>
+                            <reg>mil</reg>
+                        </choice>
+                        <choice>
+                            <abbr>seis<hi rendition="#sup">os</hi>.</abbr>
+                            <expan>seiscientos</expan>
+                        </choice> y ochenta y ocho años</date> se juntaron <choice>
+                        <orig>á</orig>
+                        <reg>a</reg>
+                    </choice><lb/>
+                    <choice>
+                        <orig>Cavildo</orig>
+                        <reg>Cabildo</reg>
+                    </choice> en la sala <choice>
+                        <abbr>p<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>para</expan>
+                    </choice> ello diputada el <choice>
+                        <abbr>Sr.</abbr>
+                        <expan>Señor</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Ca<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Capitán</expan>
+                    </choice><lb/>
+                    <choice>
+                        <orig>dela</orig>
+                        <reg>de la</reg>
+                    </choice> artillería del <choice>
+                        <abbr>rein<hi rendition="#sup">do</hi></abbr>
+                        <expan>reinado</expan>
+                    </choice> de Sevilla Don Diego Antonio de<lb/> Viana Hinojosa <choice>
+                        <abbr>Cav<hi rendition="#sup">o</hi>.</abbr>
+                        <expan>Cabildo</expan>
+                    </choice> del orden de Santiago <choice>
+                        <abbr>Gov<hi rendition="#sup">or</hi>.</abbr>
+                        <expan>Gobernador</expan>
+                    </choice> y <choice>
+                        <abbr>Cap<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Capitán</expan>
+                    </choice><lb/>
+                    <choice>
+                        <abbr>Genl.</abbr>
+                        <expan>General</expan>
+                    </choice> en esta <choice>
+                        <abbr>dha.</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Ciu<hi rendition="#sup">d</hi>.</abbr>
+                        <expan>Ciudad</expan>
+                    </choice>
+                    <choice>
+                        <orig>é</orig>
+                        <reg>e</reg>
+                    </choice>
+                    <choice>
+                        <orig>Ysla</orig>
+                        <reg>Isla</reg>
+                    </choice> de Cuba por Su <choice>
+                        <abbr>mag<hi rendition="#sup">d</hi>.</abbr>
+                        <expan>magestad</expan>
+                    </choice><lb/> y los <choice>
+                        <abbr>Sres.</abbr>
+                        <expan>Señores</expan>
+                    </choice> Don Pedro Recio de Oquendo <choice>
+                        <orig>alg<hi rendition="#sup">l</hi>.</orig>
+                        <reg>alguacil</reg>
+                    </choice>
+                    <choice>
+                        <abbr>m<hi rendition="#sup">or</hi>.</abbr>
+                        <expan>mayor</expan>
+                    </choice> Ca<g ref="#typoHyphen"/><lb break="no"/>pitanes Don Hilario de Estrada
+                    Don Jacinto<lb/> de Pedroso, <choice>
+                        <abbr>Alf<hi rendition="#sup">s</hi>.</abbr>
+                        <expan>Alférez</expan>
+                    </choice> Don <choice>
+                        <abbr>Xp<hi rendition="#sup">al</hi>.</abbr>
+                        <expan>Cristóbal</expan>
+                    </choice> de Sotolongo, <choice>
+                        <abbr>Cap<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Capitán</expan>
+                    </choice> Don<lb/> Matheo de Cárdenas y Don <choice>
+                        <abbr>Sev<hi rendition="#sup">an</hi></abbr>
+                        <expan>Sebastián</expan>
+                    </choice> de <choice>
+                        <orig>Arencivia</orig>
+                        <reg>Arencibia</reg>
+                    </choice><lb/> Ysasi <choice>
+                        <abbr>rexidores</abbr>
+                        <expan>regidores</expan>
+                    </choice> y <choice>
+                        <abbr>esttando</abbr>
+                        <expan>estando</expan>
+                    </choice> asi <choice>
+                        <orig>junttos</orig>
+                        <reg>juntos</reg>
+                    </choice> se<lb/> trato lo siguiente </p>
+            </div>
+            <div>
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <abbr>Ap<hi rendition="#sup">on</hi>.</abbr>
+                            <expan>Apelación</expan>
+                        </choice>
+                    </p></note>
+                <p> Leyose <choice>
+                        <abbr>pet<hi rendition="#sup">on</hi>.</abbr>
+                        <expan>petición</expan>
+                    </choice> de Don Diego <choice>
+                        <orig>delatorre</orig>
+                        <reg>de la Torre</reg>
+                    </choice> en la causa<lb/>
+                    <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> contra el sigue Don Melchor <choice>
+                        <orig>delatorre</orig>
+                        <reg>de la Torre</reg>
+                    </choice> por<lb/> sesenta y <choice>
+                        <orig>quatro</orig>
+                        <reg>cuatro</reg>
+                    </choice>
+                    <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> se <choice>
+                        <abbr>pres<hi rendition="#sup">ta</hi>.</abbr>
+                        <expan>presenta</expan>
+                    </choice> en grado de <choice>
+                        <abbr>apn</abbr>
+                        <expan>apelación</expan>
+                    </choice> de<lb/> un auto del <choice>
+                        <orig>Liz<hi rendition="#sup">do</hi>.</orig>
+                        <reg>Licenciado</reg>
+                    </choice>
+                    <choice>
+                        <abbr>D<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Don</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Fran<hi rendition="#sup">co</hi></abbr>
+                        <expan>Francisco</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Man<hi rendition="#sup">l</hi></abbr>
+                        <expan>Manuel</expan>
+                    </choice>
+                    <choice>
+                        <orig>deroa</orig>
+                        <reg>de Roa</reg>
+                    </choice>
+                    <choice>
+                        <abbr>Then<hi rendition="#sup">te</hi>.</abbr>
+                        <expan>Teniente</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Gen<hi rendition="#sup">l</hi>.</abbr>
+                        <expan>General</expan>
+                    </choice><lb/> por <choice>
+                        <orig>haverse</orig>
+                        <reg>haberse</reg>
+                    </choice>
+                    <choice>
+                        <abbr>m<hi rendition="#sup">do</hi>.</abbr>
+                        <expan>mandado</expan>
+                    </choice>
+                    <choice>
+                        <orig>executar</orig>
+                        <reg>ejecutar</reg>
+                    </choice> la <choice>
+                        <abbr>sent<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>sentencia</expan>
+                    </choice> de re<lb break="no"/>mate <choice>
+                        <abbr>sup<hi rendition="#sup">ca</hi>.</abbr>
+                        <expan>suplica</expan>
+                    </choice> a <choice>
+                        <abbr>VS</abbr>
+                        <expan>Vuestra Señoría</expan>
+                    </choice> le <choice>
+                        <orig>aya</orig>
+                        <reg>haya</reg>
+                    </choice> por <choice>
+                        <abbr>pres<hi rendition="#sup">do</hi></abbr>
+                        <expan>presentado</expan>
+                    </choice> en <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice><lb/> grado _ acordose sea por presentado <choice>
+                        <orig>enlo</orig>
+                        <reg>en lo</reg>
+                    </choice><lb/>
+                    <choice>
+                        <abbr>q<hi rendition="#sup">e</hi></abbr>
+                        <expan>que</expan>
+                    </choice> overe lugar de <choice>
+                        <abbr>der<hi rendition="#sup">o</hi></abbr>
+                        <expan>derecho</expan>
+                    </choice> y se nombran por Jueces<lb/> a los <choice>
+                        <abbr>dhos.</abbr>
+                        <expan>dichos</expan>
+                    </choice>
+                    <choice>
+                        <abbr>q<hi rendition="#sup">e</hi></abbr>
+                        <expan>que</expan>
+                    </choice> lo <choice>
+                        <orig>asettaron</orig>
+                        <reg>aceptaron</reg>
+                    </choice> y juraron </p>
+                <note place="left" hand="#author"><p><choice>
+                            <abbr>Ap<hi rendition="#sup">on</hi>.</abbr>
+                            <expan>Apelación</expan>
+                        </choice></p></note>
+                <p> Leyose <choice>
+                        <abbr>peti<hi rendition="#sup">on</hi>.</abbr>
+                        <expan>petición</expan>
+                    </choice> de <choice>
+                        <abbr>D<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>Doña</expan>
+                    </choice> María del Castillo viuda de<lb/>
+                    <choice>
+                        <abbr>D<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Don</expan>
+                    </choice> Pedro de Hoses, <choice>
+                        <orig>presentandose</orig>
+                        <reg>presentándose</reg>
+                    </choice> en grado de <choice>
+                        <abbr>ap<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>apelación</expan>
+                    </choice><lb/> de una <choice>
+                        <abbr>sent<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>sentencia</expan>
+                    </choice> pronunciada por el <choice>
+                        <abbr>Liz<hi rendition="#sup">do</hi></abbr>
+                        <expan>Licenciado</expan>
+                    </choice>
+                    <choice>
+                        <abbr>D<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Don</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Fran<hi rendition="#sup">co</hi>.</abbr>
+                        <expan>Francisco</expan>
+                    </choice><lb/>
+                    <choice>
+                        <abbr>Man<hi rendition="#sup">l</hi></abbr>
+                        <expan>Manuel</expan>
+                    </choice> de Roa <choice>
+                        <abbr>Then<hi rendition="#sup">e</hi>.</abbr>
+                        <expan>Teniente</expan>
+                    </choice> General por la <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> condeno<lb/> a sus menores hijos de <choice>
+                        <abbr>q<hi rendition="#sup">e</hi></abbr>
+                        <expan>que</expan>
+                    </choice> es tutora y curadora<lb/> pagasen seiscientos <choice>
+                        <orig><choice>
+                                <orig>dies</orig>
+                                <reg>diez</reg>
+                            </choice> y ocho</orig>
+                        <reg>dieciocho</reg>
+                    </choice>
+                    <choice>
+                        <abbr>p<hi rendition="#sup">s</hi></abbr>
+                        <expan>pesos</expan>
+                    </choice> y un real<lb/> a María de Córdova de la carta <choice>
+                        <abbr>q<hi rendition="#sup">e</hi>.</abbr>
+                        <expan>que</expan>
+                    </choice>
+                    <choice>
+                        <orig>dise</orig>
+                        <reg>dice</reg>
+                    </choice> les dio<lb/> por menor _ <choice>
+                        <abbr>Sup<hi rendition="#sup">ca</hi>.</abbr>
+                        <expan>Suplica</expan>
+                    </choice> a <choice>
+                        <abbr>VS</abbr>
+                        <expan>Vuestra Señoría</expan>
+                    </choice> le <choice>
+                        <orig>aya</orig>
+                        <reg>haya</reg>
+                    </choice> por <choice>
+                        <abbr>pres<hi rendition="#sup">da</hi>.</abbr>
+                        <expan>presentada</expan>
+                    </choice><lb/> en <choice>
+                        <abbr>dho.</abbr>
+                        <expan>dicho</expan>
+                    </choice> grado _ Acordose sea por <choice>
+                        <abbr>prest<hi rendition="#sup">da</hi>.</abbr>
+                        <expan>prestada</expan>
+                    </choice> en<lb/> lo <choice>
+                        <abbr>q<hi rendition="#sup">e</hi></abbr>
+                        <expan>que</expan>
+                    </choice>
+                    <choice>
+                        <orig>uviere</orig>
+                        <reg>hubiere</reg>
+                    </choice> lugar de <choice>
+                        <abbr>der<hi rendition="#sup">o</hi>.</abbr>
+                        <expan>derecho</expan>
+                    </choice> y se nombran por <choice>
+                        <orig>Jueses</orig>
+                        <reg>Jueces</reg>
+                    </choice><lb/> Comisarios. <choice>
+                        <orig>á</orig>
+                        <reg>a</reg>
+                    </choice>
+                    <choice>
+                        <abbr>dhos.</abbr>
+                        <expan>dichos</expan>
+                    </choice>
+                    <choice>
+                        <abbr>S<hi rendition="#sup">es</hi>.</abbr>
+                        <expan>Señores</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Cap<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Capitán</expan>
+                    </choice>
+                    <choice>
+                        <abbr>D<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Don</expan>
+                    </choice> Matheo de Car<lb break="no"/>denas y <choice>
+                        <abbr>D<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Don</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Sev<hi rendition="#sup">an</hi></abbr>
+                        <expan>Sebastian</expan>
+                    </choice> de Arenciavia <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> lo <choice>
+                        <abbr>aset<hi rendition="#sup">on</hi></abbr>
+                        <expan>aceptaron</expan>
+                    </choice> y juraron </p>
+                <note place="left" hand="#author"><p><choice>
+                            <abbr>Ap<hi rendition="#sup">on</hi>.</abbr>
+                            <expan>Apelación</expan>
+                        </choice></p></note>
+                <p> Leyose <choice>
+                        <abbr>pet<hi rendition="#sup">on</hi>.</abbr>
+                        <expan>petición</expan>
+                    </choice> de <choice>
+                        <abbr>Greg<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>Gregoria</expan>
+                    </choice> de Herrera morena<lb/> libre en la demanda de <choice>
+                        <orig>rehedivitoria</orig>
+                        <reg>redhibitoria</reg>
+                    </choice>
+                    <choice>
+                        <abbr>qe</abbr>
+                        <expan>que</expan>
+                    </choice> sigue<lb/> contra <choice>
+                        <abbr>D<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Don</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Fran<hi rendition="#sup">co</hi>.</abbr>
+                        <expan>Francisco</expan>
+                    </choice> de <choice>
+                        <abbr>Contr<hi rendition="#sup">as</hi></abbr>
+                        <expan>Contreras</expan>
+                    </choice>
+                    <choice>
+                        <abbr>s<hi rendition="#sup">e</hi>.</abbr>
+                        <expan>sobre</expan>
+                    </choice>
+                    <choice>
+                        <orig>haverle</orig>
+                        <reg>haberle</reg>
+                    </choice> vendido<lb/> una negra sin expecificar las enfermeda<lb break="no"/>des <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> padecía en la <choice>
+                        <abbr>escrip<hi rendition="#sup">ra</hi>.</abbr>
+                        <expan>escritura</expan>
+                    </choice> de <choice>
+                        <abbr>v<hi rendition="#sup">ta</hi></abbr>
+                        <expan>venta</expan>
+                    </choice> en <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> se <choice>
+                        <abbr>pres<hi rendition="#sup">ta</hi>.</abbr>
+                        <expan>presenta</expan>
+                    </choice> en gra<lb break="no"/>do de <choice>
+                        <abbr>ap<hi rendition="#sup">on</hi></abbr>
+                        <expan>apelación</expan>
+                    </choice> de una <choice>
+                        <abbr>sent<hi rendition="#sup">a</hi></abbr>
+                        <expan>sentencia</expan>
+                    </choice> pronunciada en <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice><lb/> causa por <choice>
+                        <abbr>dho.</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Li<hi rendition="#sup">do</hi></abbr>
+                        <expan>Licenciado</expan>
+                    </choice>
+                    <choice>
+                        <abbr>D<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Don</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Fran<hi rendition="#sup">co</hi>.</abbr>
+                        <expan>Francisco</expan>
+                    </choice> Manuel </p>
+            </div>
+            <div>
+                <pb n="2r" facs="actorig00015.tif"/>
+                <fw type="folNum">381r</fw>
+                <p> De Roa, <choice>
+                        <abbr>Then<hi rendition="#sup">te</hi>.</abbr>
+                        <expan>Teniente</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Gen<hi rendition="#sup">l</hi>.</abbr>
+                        <expan>General</expan>
+                    </choice>
+                    <choice>
+                        <abbr>sup<hi rendition="#sup">ca</hi></abbr>
+                        <expan>suplica</expan>
+                    </choice> a <choice>
+                        <abbr>VS</abbr>
+                        <expan>Vuestra Señoría</expan>
+                    </choice> le <choice>
+                        <orig>aya</orig>
+                        <reg>haya</reg>
+                    </choice> por <choice>
+                        <abbr>pres<hi rendition="#sup">da</hi></abbr>
+                        <expan>presentada</expan>
+                    </choice> en<lb/>
+                    <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> grado _ Acordose <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> sea por <choice>
+                        <abbr>pres<hi rendition="#sup">da</hi>.</abbr>
+                        <expan>presentada</expan>
+                    </choice> en lo<lb/> que <choice>
+                        <orig>ubiere</orig>
+                        <reg>hubiere</reg>
+                    </choice> lugar de <choice>
+                        <abbr>der<hi rendition="#sup">o</hi>.</abbr>
+                        <expan>derecho</expan>
+                    </choice> y se nombran por <choice>
+                        <orig>Jueses</orig>
+                        <reg>Jueces</reg>
+                    </choice><lb/>
+                    <choice>
+                        <orig>alos</orig>
+                        <reg>a los</reg>
+                    </choice>
+                    <choice>
+                        <abbr>dhos.</abbr>
+                        <expan>dichos</expan>
+                    </choice>
+                    <choice>
+                        <abbr>S<hi rendition="#sup">es</hi></abbr>
+                        <expan>Señores</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Cap<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Capitán</expan>
+                    </choice> Don Matheo de Cardenas<lb/> y <choice>
+                        <abbr>D<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Don</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Sev<hi rendition="#sup">an</hi>.</abbr>
+                        <expan>Sebastián</expan>
+                    </choice> de <choice>
+                        <orig>Arencivia</orig>
+                        <reg>Arencibia</reg>
+                    </choice>
+                    <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> lo <choice>
+                        <abbr>aset<hi rendition="#sup">on</hi>.</abbr>
+                        <expan>aceptaron</expan>
+                    </choice> y juraron </p>
+                <note place="left" hand="#author"><p><choice>
+                            <abbr>Pett<hi rendition="#sup">on</hi></abbr>
+                            <expan>Petición</expan>
+                        </choice>
+                        <choice>
+                            <orig>sanxa</orig>
+                            <reg>zanja</reg>
+                        </choice></p></note>
+                <p>
+                    <choice>
+                        <orig>Leyosse</orig>
+                        <reg>Leyose</reg>
+                    </choice>
+                    <choice>
+                        <abbr>pett<hi rendition="#sup">on</hi>.</abbr>
+                        <expan>petición</expan>
+                    </choice> de <choice>
+                        <abbr>Ju<hi rendition="#sup">n</hi></abbr>
+                        <expan>Juan</expan>
+                    </choice> Polanco <choice>
+                        <abbr>arendat<hi rendition="#sup">o</hi></abbr>
+                        <expan>arrendatario</expan>
+                    </choice>
+                    <choice>
+                        <orig>delas</orig>
+                        <reg>de las</reg>
+                    </choice>
+                    <choice>
+                        <orig>san<lb break="no"/>xas</orig>
+                        <reg>zanjas</reg>
+                    </choice> en <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice>
+                    <choice>
+                        <orig>dise</orig>
+                        <reg>dice</reg>
+                    </choice>
+                    <choice>
+                        <orig>sele</orig>
+                        <reg>se le</reg>
+                    </choice> a embargado el último tercio<lb/>
+                    <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice>
+                    <choice>
+                        <orig>sele</orig>
+                        <reg>se le</reg>
+                    </choice>
+                    <choice>
+                        <orig>deve</orig>
+                        <reg>debe</reg>
+                    </choice> pagar del año <choice>
+                        <abbr>corr<hi rendition="#sup">te</hi>.</abbr>
+                        <expan>corriente</expan>
+                    </choice>
+                    <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice>
+                    <choice>
+                        <orig>concluie</orig>
+                        <reg>concluye</reg>
+                    </choice> se<lb/> sirva <choice>
+                        <abbr>V.</abbr>
+                        <expan>Vuestra</expan>
+                    </choice><choice>
+                        <abbr> S.</abbr>
+                        <expan>Señoría</expan>
+                    </choice> mandar suspender <choice>
+                        <abbr>dho.</abbr>
+                        <expan>dicho</expan>
+                    </choice> embargo<lb/> y de lo <choice>
+                        <abbr>contr<hi rendition="#sup">o</hi></abbr>
+                        <expan>contrario</expan>
+                    </choice>
+                    <choice>
+                        <orig>prottexta</orig>
+                        <reg>protesta</reg>
+                    </choice> no le grave perjuicio<lb/> Acordose <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> en <choice>
+                        <orig>atencion</orig>
+                        <reg>atención</reg>
+                    </choice> a lo <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice>
+                    <choice>
+                        <orig>representtaron</orig>
+                        <reg>representaron</reg>
+                    </choice><lb/> los <choice>
+                        <abbr>S<hi rendition="#sup">es</hi>.</abbr>
+                        <expan>Señores</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Comi<hi rendition="#sup">os</hi>.</abbr>
+                        <expan>Comisarios</expan>
+                    </choice> del año sobre <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> las <choice>
+                        <orig>sanxas</orig>
+                        <reg>zanjas</reg>
+                    </choice> estan de<lb/> mala calidad y lo pedido <choice>
+                        <abbr>p<hi rendition="#sup">r</hi></abbr>
+                        <expan>por</expan>
+                    </choice> esta <choice>
+                        <abbr>p<hi rendition="#sup">te</hi></abbr>
+                        <expan>presente</expan>
+                    </choice> = este <choice>
+                        <orig>ultimo</orig>
+                        <reg>último</reg>
+                    </choice><lb/>
+                    <choice>
+                        <orig>ttercio</orig>
+                        <reg>tercio</reg>
+                    </choice> se <choice>
+                        <orig>combierta</orig>
+                        <reg>convierta</reg>
+                    </choice> en <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> se limpien y pongan<lb/> corrientes <choice>
+                        <abbr>dhas.</abbr>
+                        <expan>dichas</expan>
+                    </choice>
+                    <choice>
+                        <orig>sanxas</orig>
+                        <reg>zanjas</reg>
+                    </choice> y <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> sea con <choice>
+                        <abbr>asist<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>asistencia</expan>
+                    </choice> de dos<lb/>
+                    <choice>
+                        <abbr>S<hi rendition="#sup">es</hi>.</abbr>
+                        <expan>Señores</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Com<hi rendition="#sup">os</hi>.</abbr>
+                        <expan>Comisarios</expan>
+                    </choice> y se <choice>
+                        <abbr>sup<hi rendition="#sup">ca</hi>.</abbr>
+                        <expan>suplica</expan>
+                    </choice> a Su <choice>
+                        <abbr>S<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>Señoría</expan>
+                    </choice> lo <choice>
+                        <abbr>m<hi rendition="#sup">de</hi></abbr>
+                        <expan>mandé</expan>
+                    </choice>
+                    <choice>
+                        <abbr>executar</abbr>
+                        <expan>ejecutar</expan>
+                    </choice><lb/> y <choice>
+                        <abbr>dho.</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <abbr>S<hi rendition="#sup">r</hi></abbr>
+                        <expan>Señor</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Gov<hi rendition="#sup">or</hi>.</abbr>
+                        <expan>Gobernador</expan>
+                    </choice> y <choice>
+                        <abbr>Cap<hi rendition="#sup">n</hi>.</abbr>
+                        <expan>Capitán</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Gen<hi rendition="#sup">l</hi>.</abbr>
+                        <expan>General</expan>
+                    </choice> m<hi rendition="#sup">do</hi> se guarde lo acordado<lb/> y <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> sino <choice>
+                        <orig>uviere</orig>
+                        <reg>hubiere</reg>
+                    </choice>
+                    <choice>
+                        <orig>vastante</orig>
+                        <reg>bastante</reg>
+                    </choice>
+                    <choice>
+                        <orig>conestte</orig>
+                        <reg>con este</reg>
+                    </choice>
+                    <choice>
+                        <orig>ttercio</orig>
+                        <reg>tercio</reg>
+                    </choice> se<lb/> pague de los <choice>
+                        <orig>demas</orig>
+                        <reg>demás</reg>
+                    </choice>
+                    <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> no contare de <choice>
+                        <orig>libransa</orig>
+                        <reg>libranza</reg>
+                    </choice> y<lb/>
+                    <choice>
+                        <orig>quanto</orig>
+                        <reg>cuanto</reg>
+                    </choice> antes sin <choice>
+                        <orig>dilacion</orig>
+                        <reg>dilación</reg>
+                    </choice> se ponga en <choice>
+                        <abbr>ex<hi rendition="#sup">on</hi>.</abbr>
+                        <expan>ejecución</expan>
+                    </choice><lb/> el caso </p>
+                <note place="left" hand="#author"><p><choice>
+                            <abbr>Pett<hi rendition="#sup">on</hi></abbr>
+                            <expan>Petición</expan>
+                        </choice></p></note>
+                <p> Leyose <choice>
+                        <abbr>pet<hi rendition="#sup">on</hi>.</abbr>
+                        <expan>petición</expan>
+                    </choice> de <choice>
+                        <abbr>Salv<hi rendition="#sup">r</hi>.</abbr>
+                        <expan>Salvador</expan>
+                    </choice> Molina <choice>
+                        <orig>Maiordomo</orig>
+                        <reg>Mayordomo</reg>
+                    </choice><lb/> de la <choice>
+                        <abbr>Ciu<hi rendition="#sup">d</hi></abbr>
+                        <expan>Ciudad</expan>
+                    </choice> en <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> expresa se halla sin medios<lb/>
+                    <choice>
+                        <abbr>p<hi rendition="#sup">a</hi></abbr>
+                        <expan>para</expan>
+                    </choice> el costo de las fiestas de Ciudad _ Acordose<lb/> saque memoria de lo <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> se <choice>
+                        <orig>deve</orig>
+                        <reg>debe</reg>
+                    </choice> a la ciudad<lb/> y ocurra al <choice>
+                        <abbr>S<hi rendition="#sup">r</hi>.</abbr>
+                        <expan>Señor</expan>
+                    </choice>
+                    <choice>
+                        <abbr>Gov<hi rendition="#sup">r</hi>.</abbr>
+                        <expan>Gobernador</expan>
+                    </choice>
+                    <choice>
+                        <abbr>p<hi rendition="#sup">a</hi></abbr>
+                        <expan>para</expan>
+                    </choice>
+                    <choice>
+                        <abbr>q</abbr>
+                        <expan>que</expan>
+                    </choice> la <choice>
+                        <abbr>m<hi rendition="#sup">de</hi></abbr>
+                        <expan>mande</expan>
+                    </choice> pagar y en<lb/>
+                    <choice>
+                        <orig>atencion</orig>
+                        <reg>atención</reg>
+                    </choice>
+                    <choice>
+                        <orig>destar</orig>
+                        <reg>de estar</reg>
+                    </choice> proxima la fiesta del <choice>
+                        <abbr>S<hi rendition="#sup">r</hi>.</abbr>
+                        <expan>Señor</expan>
+                    </choice> San <choice>
+                        <orig>Marsal</orig>
+                        <reg>Marcial</reg>
+                    </choice><lb/> lo haga <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <orig>maiordomo</orig>
+                        <reg>mayordomo</reg>
+                    </choice> buscando a su cre<lb break="no"/>dito lo <choice>
+                        <abbr>ness<hi rendition="#sup">o</hi>.</abbr>
+                        <expan>necesario</expan>
+                    </choice><lb/> Con lo <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> se <choice>
+                        <orig>acavo</orig>
+                        <reg>acabo</reg>
+                    </choice>
+                    <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <abbr>cav<hi rendition="#sup">do</hi>.</abbr>
+                        <expan>cabildo</expan>
+                    </choice> y lo firmaron<lb/>
+                    <choice>
+                        <orig>Antemy</orig>
+                        <reg>Ante mi</reg>
+                    </choice> = Berdo de Ojeda<lb/>
+                    <choice>
+                        <abbr>S<hi rendition="#sup">no</hi></abbr>
+                        <expan>Escribano</expan>
+                    </choice> de <choice>
+                        <abbr>cav<hi rendition="#sup">do</hi></abbr>
+                        <expan>cabildo</expan>
+                    </choice>. </p>
+            </div>
+            <div type="trasuntada">
+                <pb></pb>
+                <p>To do: Edición "trasuntada"</p>
+            </div>
+        </body>
+    </text>
+</TEI>

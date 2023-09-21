@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="actas.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Petición de tierras de la viuda Catalina de Palma y negación de
+                    donación de tierras de la viuda Leonor Recio</title>
+                <editor>
+                    <persName>
+                        <surname>Echarri</surname>
+                        <forename>Bryan</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <p>Edición digital de las Actas Capitulres (<date>2023-2026</date>)</p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Oficina del Historiador de la Ciudad de la Habana</publisher>
+                <pubPlace>Berlín</pubPlace>
+                <pubPlace>La Habana</pubPlace>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Oficina del Historiador de la Ciudad de la Habana</institution>
+                        <collection>Fondo Gobierno de la Habana. Serie Actas del ayuntamiento del
+                            periodo colonial (1550-1898)</collection>
+                        <idno>
+                            <idno type="shelfmark">[Introducir datos]</idno>
+                            <idno type="uri">[Introducir datos]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Documento manuscrito resturado, escrito con tinta ferrogálica desgastada,
+                            se encuentra en buen estado de conservación</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <orgName>Gobierno de La Habana</orgName>
+                <placeName>La Habana</placeName>
+                <date when="1670-06-27">27 de Junio de 1670</date>
+            </creation>
+            <langUsage>
+                <language ident="es">Español</language>
+            </langUsage>
+            <abstract xml:lang="es">
+                <p>Leonor Recio, vecina y viuda tiene el hato San Pedro y 5 días puestos para pesar
+                    carne de vaca en la carnicería. Pide se le libre del repartimiento pues se han
+                    anegado sus tierras y su ganado ha muerto. Catalina de Palma, viuda de Juan
+                    Balmaseda, tutora y curadora de sus hijos, pide el sitio Ojo del Agua de Ramón
+                    para ganado menor. </p>
+            </abstract>
+            <textClass>
+                <catRef/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb n="1" facs="actorig0006.tif"/>
+                <fw type="folNum">627r</fw>
+
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <orig>Cavildo</orig>
+                            <reg>Cabildo</reg>
+                        </choice><lb/> Luis <choice>
+                            <orig>Perez</orig>
+                            <reg>Peréz</reg>
+                        </choice>
+                    </p></note>
+                <p>En la Ciudad de la <choice>
+                        <orig>Havana</orig>
+                        <reg>Habana</reg>
+                    </choice> en <date when="1670-06-27" calendar="#Gregorian"><date
+                            when="1670-06-27" calendar="#Gregorian">veinte y siete días<lb/> del mes
+                            de Junio de <choice>
+                                <orig>mill</orig>
+                                <reg>mil</reg>
+                            </choice> y seiscientos y setenta años</date></date><lb/> se juntaron a <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice> como lo <choice>
+                        <orig>an</orig>
+                        <reg>han</reg>
+                    </choice> de uso y costumbre<lb/> en la sala para ello diputada <choice>
+                        <orig>conbiene</orig>
+                        <reg>combiene</reg>
+                    </choice> a <choice>
+                        <orig>saver</orig>
+                        <reg>saber</reg>
+                    </choice> el Señor<lb/> Maestro de Campo Don <choice>
+                        <abbr>Fran<hi rendition="#sup">co</hi></abbr>
+                        <expan>Francisco</expan>
+                    </choice> Rodriguez de Ledesma <choice>
+                        <orig>cavalle<lb break="no"/>ro</orig>
+                        <reg>caballero</reg>
+                    </choice> del orden de Santiago Governador y <choice>
+                        <orig>Capitan</orig>
+                        <reg>Capitán</reg>
+                    </choice> general<lb/> de esta <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> Ciudad e <choice>
+                        <orig>ysla</orig>
+                        <reg>Isla</reg>
+                    </choice> por su <choice>
+                        <abbr>mag<hi rendition="#sup">d</hi></abbr>
+                        <expan>magestad</expan>
+                    </choice> y los Señores Alfe<lb break="no"/>res mayor don Nicolas Castellon <choice>
+                        <orig>Capitan</orig>
+                        <reg>Capitán</reg>
+                    </choice> don Pedro Val<lb break="no"/>despino fiel <choice>
+                        <orig>executor</orig>
+                        <reg>ejecutor</reg>
+                    </choice> Don Pedro <choice>
+                        <orig>Rezio</orig>
+                        <reg>Recio</reg>
+                    </choice> de Oquendo al<lb break="no"/>guacil mayor <choice>
+                        <orig>Capitan</orig>
+                        <reg>Capitán</reg>
+                    </choice> Joseph Ruiz Guillen Alcalde<lb/> Mayor <choice>
+                        <orig>provinzial</orig>
+                        <reg>provicional</reg>
+                    </choice> de la <choice>
+                        <abbr>S<hi rendition="#sup">ta</hi></abbr>
+                        <expan>Santa</expan>
+                    </choice> Hermandad Diego de Soto<lb break="no"/>longo Don <choice>
+                        <orig>Sevastian</orig>
+                        <reg>Sebastian</reg>
+                    </choice> calvo de la Puerta depositario gene<lb break="no"/>ral y <choice>
+                        <orig>comissario</orig>
+                        <reg>comisario</reg>
+                    </choice> general de las compañías de a <choice>
+                        <orig>cavallo</orig>
+                        <reg>caballo</reg>
+                    </choice> de esta<lb/>
+                    <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> ciudad <choice>
+                        <orig>Capitan</orig>
+                        <reg>Capitán</reg>
+                    </choice> Don Hilario de Estrada <choice>
+                        <orig>Capitan</orig>
+                        <reg>Capitán</reg>
+                    </choice><lb/> Thomas de Urabarro <choice>
+                        <orig>thesorero</orig>
+                        <reg>tesorero</reg>
+                    </choice> de la Santa Cruzada <choice>
+                        <orig>Ca<lb break="no"/>pitan</orig>
+                        <reg>Capitán</reg>
+                    </choice> Don Xptoval de Sayas y Don Juan Vizente<lb/> de pedroso <choice>
+                        <orig>rexidores</orig>
+                        <reg>regidores</reg>
+                    </choice> y en <choice>
+                        <orig>pressenzia</orig>
+                        <reg>precencia</reg>
+                    </choice> de mi el <choice>
+                        <orig>scrivano</orig>
+                        <reg>escribano</reg>
+                    </choice><lb/> acordaron lo siguiente<lb/></p>
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <abbr>Pett<hi rendition="#sup">on</hi>.</abbr>
+                            <expan>Petición</expan>
+                        </choice> de Juan del<lb/> Monte <choice>
+                            <abbr>p<hi rendition="#sup">a</hi>.</abbr>
+                            <expan>para</expan>
+                        </choice> ser<lb/> admitido <choice>
+                            <abbr>p<hi rendition="#sup">r</hi>.</abbr>
+                            <expan>por</expan>
+                        </choice> Pro<lb break="no"/>curador de causas </p></note>
+                <p>En este <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice>
+                    <choice>
+                        <orig>pressento</orig>
+                        <reg>presento</reg>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice> Juan del monte <choice>
+                        <orig>vezino</orig>
+                        <reg>vecino</reg>
+                    </choice><lb/> y natural de esta Ciudad en que <choice>
+                        <orig>dize</orig>
+                        <reg>dice</reg>
+                    </choice> que <choice>
+                        <orig>á</orig>
+                        <reg>a</reg>
+                    </choice>
+                    <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice> de seis años que<lb/>
+                    <choice>
+                        <orig>exercita</orig>
+                        <reg>ejercita</reg>
+                    </choice> los <choice>
+                        <orig>ofizios</orig>
+                        <reg>ofocios</reg>
+                    </choice> de pluma asistiendo en los despachos que<lb/>
+                    <choice>
+                        <orig>sean</orig>
+                        <reg>se han</reg>
+                    </choice>
+                    <choice>
+                        <orig>ofresido</orig>
+                        <reg>ofrecido</reg>
+                    </choice> en los <choice>
+                        <orig>ofizios</orig>
+                        <reg>ofocios</reg>
+                    </choice> de <choice>
+                        <orig>scrivanos</orig>
+                        <reg>escribanos</reg>
+                    </choice>
+                    <choice>
+                        <orig>publicos</orig>
+                        <reg>públicos</reg>
+                    </choice>
+                    <choice>
+                        <orig>hazien<lb break="no"/>do</orig>
+                        <reg>haciendo</reg>
+                    </choice> y ordenando despachos <choice>
+                        <orig>scripturas</orig>
+                        <reg>escrituras</reg>
+                    </choice> y otros autos y atento<lb/> a que tiene alguna <choice>
+                        <orig>practica</orig>
+                        <reg>práctica</reg>
+                    </choice> de los negocios de <choice>
+                        <orig>pleytos</orig>
+                        <reg>pleitos</reg>
+                    </choice> se<lb/>
+                    <choice>
+                        <orig>sirba</orig>
+                        <reg>sirva</reg>
+                    </choice> Su <choice>
+                        <abbr>ss<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>señosría</expan>
+                    </choice> de <choice>
+                        <orig>rrecivirle</orig>
+                        <reg>recibirle</reg>
+                    </choice> al <choice>
+                        <orig>usso</orig>
+                        <reg>uso</reg>
+                    </choice> y <choice>
+                        <orig>exerzizio</orig>
+                        <reg>ejercicio</reg>
+                    </choice> de procura<lb break="no"/>dor de <choice>
+                        <orig>caussas</orig>
+                        <reg>causas</reg>
+                    </choice>
+                    <choice>
+                        <orig>nombrandole</orig>
+                        <reg>nombrándole</reg>
+                    </choice> para ello por tal y que esta<lb/> presto de dar la fianza y <choice>
+                        <orig>hazer</orig>
+                        <reg>hacer</reg>
+                    </choice> y cumplir todo lo que por<lb/> Su <choice>
+                        <orig>ss<hi rendition="#sup">a</hi>.</orig>
+                        <reg>señoría</reg>
+                    </choice> le fuese mandado = <choice>
+                        <orig>á</orig>
+                        <reg>a</reg>
+                    </choice> lo que se <choice>
+                        <orig>acordo</orig>
+                        <reg>acordó</reg>
+                    </choice> que se comete<lb/> al <choice>
+                        <orig>Lissenciado</orig>
+                        <reg>Licenciado</reg>
+                    </choice> don Antonio de Tapia abogado para que lo<lb/>
+                    <choice>
+                        <orig>exsamine</orig>
+                        <reg>examine</reg>
+                    </choice>
+                </p>
+            </div>
+            <div>
+                <pb n="1v" facs="actorig0007.tif"/>
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <orig>diputassion </orig>
+                            <reg>Diputación</reg>
+                        </choice></p></note>
+                <p> El <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> señor Alferes mayor Don Nicolas Castellon <choice>
+                        <orig>pressen<lb break="no"/>to</orig>
+                        <reg>presento</reg>
+                    </choice> una <choice>
+                        <orig>diputassion</orig>
+                        <reg>diputación</reg>
+                    </choice> del mes de mayo <choice>
+                        <orig>passado</orig>
+                        <reg>pasado</reg>
+                    </choice> de este presente<lb/> año que importa quinientos y noventa reales con
+                    cartas de<lb/> pago a las espaldas <choice>
+                        <orig>della</orig>
+                        <reg>de la </reg>
+                    </choice> del alferez <choice>
+                        <orig>Jasinto</orig>
+                        <reg>Jacinto</reg>
+                    </choice> de cabrera<lb/> de <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> cantidad _ hubieronla por <choice>
+                        <orig>pressentada</orig>
+                        <reg>presentada</reg>
+                    </choice> y mandaron<lb/> se ponga con las demás<lb/></p>
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <abbr>Pett<hi rendition="#sup">on</hi>.</abbr>
+                            <expan>Petición</expan>
+                        </choice>
+                    </p></note>
+                <p> En este <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice>
+                    <choice>
+                        <orig>pressentó</orig>
+                        <reg>presentó</reg>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice> el <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <abbr>S<hi rendition="#sup">r</hi>.</abbr>
+                        <expan>Señor</expan>
+                    </choice>
+                    <choice>
+                        <orig>Rexidor</orig>
+                        <reg>Regidor</reg>
+                    </choice> Diego<lb/> de Sotolongo en que <choice>
+                        <orig>dize</orig>
+                        <reg>dice</reg>
+                    </choice> que en <date when="1568-09-14" calendar="#Gregorian"><choice>
+                            <orig>catorze</orig>
+                            <reg>catorce</reg>
+                        </choice>
+                        <choice>
+                            <orig>dias</orig>
+                            <reg>días</reg>
+                        </choice> del mes de septiem<lb break="no"/>bre del año <choice>
+                            <orig>passado</orig>
+                            <reg>pasado</reg>
+                        </choice> de <choice>
+                            <orig>mill</orig>
+                            <reg>mil</reg>
+                        </choice> y quinientos y <choice>
+                            <orig>sessenta</orig>
+                            <reg>sesenta</reg>
+                        </choice> y ocho</date><lb/> en el <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice> que su <choice>
+                        <abbr>ss<hi rendition="#sup">a</hi></abbr>
+                        <expan>señoría</expan>
+                    </choice> hizo hizo <choice>
+                        <orig>merzed</orig>
+                        <reg>merced</reg>
+                    </choice> de un <choice>
+                        <orig>zitio</orig>
+                        <reg>sitio</reg>
+                    </choice> para<lb/> poblar de puercos en el <choice>
+                        <orig>rrio</orig>
+                        <reg>río</reg>
+                    </choice> de diaxacas en el <choice>
+                        <orig>rrio</orig>
+                        <reg>río</reg>
+                    </choice> arriba<lb/> a Pedro Lopez el <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> no lo <choice>
+                        <orig>avia</orig>
+                        <reg>había</reg>
+                    </choice> poblado y estaba<lb/> yermo y <choice>
+                        <orig>tenia</orig>
+                        <reg>tenía</reg>
+                    </choice> término bastante de una legua por todas<lb/> partes y que su <choice>
+                        <abbr>ssa</abbr>
+                        <expan>señoría</expan>
+                    </choice>: le <choice>
+                        <orig>diesse</orig>
+                        <reg>diece</reg>
+                    </choice>
+                    <choice>
+                        <orig>lissenzia</orig>
+                        <reg>licencia</reg>
+                    </choice> para poblarlo y que el<lb/>
+                    <choice>
+                        <orig>pressente</orig>
+                        <reg>presente</reg>
+                    </choice>
+                    <choice>
+                        <orig>scrivano</orig>
+                        <reg>escribano</reg>
+                    </choice> le de testimonio de <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>merzed</orig>
+                        <reg>merced</reg>
+                    </choice> citada<lb/> que está presto de pagarle sus derechos como <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice> largamente<lb/> consta de <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice> = a la <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> se <choice>
+                        <orig>acordo</orig>
+                        <reg>acordó</reg>
+                    </choice> que se de traslado<lb/> a la parte y sus herederos y desele el
+                    testimonio que pide<lb/> con <choice>
+                        <orig>citassion</orig>
+                        <reg>citación</reg>
+                    </choice> y <unclear reason="illegible" cert="low">fho</unclear> se traiga para
+                    otro <choice>
+                        <orig>Cavildo</orig>
+                        <reg>Cabildo</reg>
+                    </choice><lb/></p>
+                <note><p>
+                        <choice>
+                            <abbr>Pett<hi rendition="#sup">on</hi></abbr>
+                            <expan>Petición</expan>
+                        </choice> = del<lb/>
+                        <choice>
+                            <orig>citio</orig>
+                            <reg>sitio</reg>
+                        </choice> el <choice>
+                            <abbr>q</abbr>
+                            <expan>que</expan>
+                        </choice> es hor<lb break="no"/>no de cal y fue de<lb/>
+                        <choice>
+                            <abbr>D.</abbr>
+                            <expan>Don</expan>
+                        </choice> Pedro Legaza<lb/> junto <choice>
+                            <orig>ala</orig>
+                            <reg>a la</reg>
+                        </choice> Caba<lb break="no"/>ña</p></note>
+                <p> En este <choice>
+                        <orig>Cavildo</orig>
+                        <reg>Cabildo</reg>
+                    </choice>
+                    <choice>
+                        <orig>pressento</orig>
+                        <reg>presento</reg>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice> el sargento mayor<lb/> Don Pedro Renier de Legaza <choice>
+                        <orig>Cavallero</orig>
+                        <reg>caballero</reg>
+                    </choice> de la <choice>
+                        <orig>horden</orig>
+                        <reg>orden</reg>
+                    </choice> de<lb/> Santiago <choice>
+                        <orig>thessorero</orig>
+                        <reg>tesorero</reg>
+                    </choice>
+                    <choice>
+                        <orig>Jues</orig>
+                        <reg>Juez</reg>
+                    </choice>
+                    <choice>
+                        <orig>ofizial</orig>
+                        <reg>oficial</reg>
+                    </choice>
+                    <choice>
+                        <abbr>R<hi rendition="#sup">l</hi>.</abbr>
+                        <expan>Real</expan>
+                    </choice> de la <choice>
+                        <orig>rreal</orig>
+                        <reg>real</reg>
+                    </choice>
+                    <choice>
+                        <orig>Hazienda</orig>
+                        <reg>Hacienda</reg>
+                    </choice><lb/> de esta <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> Ciudad y vecino <choice>
+                        <orig>della</orig>
+                        <reg>de ella </reg>
+                    </choice> en que <choice>
+                        <orig>dize</orig>
+                        <reg>dice</reg>
+                    </choice> que de la<lb/> otra banda de la <choice>
+                        <orig>baya</orig>
+                        <reg>valla</reg>
+                    </choice> de esta <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> Ciudad en la falda<lb/> de la sierra que llaman de <choice>
+                        <orig>Coximar</orig>
+                        <reg>Cojimar</reg>
+                    </choice> lindando con la ca<lb break="no"/>baña del capitan y <choice>
+                        <orig>rexidor</orig>
+                        <reg>regidor</reg>
+                    </choice> don Juan de Prado esta<lb/> un pedazo de tierra despoblado el <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> no <choice>
+                        <orig>sirbe</orig>
+                        <reg>sirve</reg>
+                    </choice> para<lb/> otra <choice>
+                        <orig>cossa</orig>
+                        <reg>cosa</reg>
+                    </choice> que para una <choice>
+                        <orig>guerta</orig>
+                        <reg>huerta</reg>
+                    </choice> como la que tiene<lb/> el <choice>
+                        <orig>sussodicho</orig>
+                        <reg>susodicho</reg>
+                    </choice> y para poder fabricarla para ayuda sus<g ref="#typoHyphen"/><lb
+                        break="no"/>tentar su familia y que no es en <choice>
+                        <orig>perjuizio</orig>
+                        <reg>prejuicio</reg>
+                    </choice> del bien<lb/>
+                    <choice>
+                        <orig>comun</orig>
+                        <reg>común</reg>
+                    </choice> atento <choice>
+                        <orig>alo</orig>
+                        <reg>a lo</reg>
+                    </choice>
+                    <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> se sirva Su <choice>
+                        <abbr>ss<hi rendition="#sup">a</hi></abbr>
+                        <expan>señoría</expan>
+                    </choice> de <choice>
+                        <orig>hazerle</orig>
+                        <reg>hacerle</reg>
+                    </choice>
+                    <choice>
+                        <abbr>mrd</abbr>
+                        <expan>merced</expan>
+                    </choice>
+                </p>
+            </div>
+            <div>
+                <pb n="2r" facs="actorig0008.tif"/>
+                <fw type="folNum">628r</fw>
+                <p> del <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> pedazo de tierra hasta una <choice>
+                        <orig>cavallería</orig>
+                        <reg>caballería</reg>
+                    </choice> poco <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice><lb/> o menos como <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice> largamente consta de <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice><lb/> a la <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> se <choice>
+                        <orig>acordo</orig>
+                        <reg>acordó</reg>
+                    </choice> que haga sus <choice>
+                        <orig>diligenzias</orig>
+                        <reg>diligencias</reg>
+                    </choice> conforme<lb/> las <choice>
+                        <orig>hordenanzas</orig>
+                        <reg>ordenanzas</reg>
+                    </choice> con <choice>
+                        <orig>citassion</orig>
+                        <reg>citación</reg>
+                    </choice> del procurador general y ve<lb break="no"/>cinos _ Y por estar junto a
+                    lo <choice>
+                        <orig>bedado</orig>
+                        <reg>vedado</reg>
+                    </choice> se suplica al señor<lb/> Governador como <choice>
+                        <orig>Capitan</orig>
+                        <reg>Capitán</reg>
+                    </choice> general para que su <choice>
+                        <orig>señoria</orig>
+                        <reg>señoría</reg>
+                    </choice><lb/> declare si tiene, o no <choice>
+                        <orig>ynconbiniente</orig>
+                        <reg>inconveniente</reg>
+                    </choice><lb/>
+                </p>
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <abbr>Pett<hi rendition="#sup">on</hi>.</abbr>
+                            <expan>Petición</expan>
+                        </choice> y <choice>
+                            <abbr>liss<hi rendition="#sup">a</hi>.</abbr>
+                            <expan>licencia</expan>
+                        </choice><lb/> al <choice>
+                            <orig>capitan</orig>
+                            <reg>capitán</reg>
+                        </choice>
+                        <choice>
+                            <abbr>Ju<hi rendition="#sup">n</hi></abbr>
+                            <expan>Juan</expan>
+                        </choice><lb/> Gonzales <choice>
+                            <abbr>p<hi rendition="#sup">a</hi>.</abbr>
+                            <expan>para</expan>
+                        </choice> mudar diferen<lb break="no"/>tes <choice>
+                            <abbr>haz<hi rendition="#sup">s</hi></abbr>
+                            <expan>haciendas</expan>
+                        </choice> de las de<lb/> Guane </p></note>
+                <p> En este <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice>
+                    <choice>
+                        <orig>pressento</orig>
+                        <reg>presento</reg>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice> el <choice>
+                        <orig>capitan</orig>
+                        <reg>Capitán</reg>
+                    </choice> Juan gon<lb break="no"/>çales de carvaxal vecino de esta <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> Ciudad en que <choice>
+                        <orig>dize</orig>
+                        <reg>dice</reg>
+                    </choice><lb/> que en la <choice>
+                        <orig>jurisdission</orig>
+                        <reg>juridicción</reg>
+                    </choice>
+                    <choice>
+                        <orig>della</orig>
+                        <reg>de ella</reg>
+                    </choice> y <choice>
+                        <orig>paraxe</orig>
+                        <reg>parece</reg>
+                    </choice> que llaman guanigua<lb break="no"/>nico-el corral La Jarreta-los <choice>
+                        <orig>rremates</orig>
+                        <reg>remates</reg>
+                    </choice> = El <choice>
+                        <orig>hatto</orig>
+                        <reg>hato</reg>
+                    </choice> de<lb/> guane = El <choice>
+                        <orig>hatto</orig>
+                        <reg>hato</reg>
+                    </choice> y corral Las Vegas = el corral Los por<lb break="no"/>tales = El hato <choice>
+                        <abbr>s<hi rendition="#sup">ta</hi>.</abbr>
+                        <expan>Santa</expan>
+                    </choice> lucia = El <seg type="comment"><orig>hato</orig><note
+                            xml:id="nuc3_zdc_byb">Sitio que, fuera de las poblaciones, eligen los
+                            pastores para comer y dormir durante su permanencia allí con el
+                            ganado.</note></seg> San franco = El hato y<lb/> corral Las <choice>
+                        <orig>cruzes</orig>
+                        <reg>cruces</reg>
+                    </choice> de avalos y poseedor de la <choice>
+                        <orig>merzed</orig>
+                        <reg>merced</reg>
+                    </choice><lb/> que su <choice>
+                        <abbr>ss<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>señoría</expan>
+                    </choice> le hizo <choice>
+                        <orig>á</orig>
+                        <reg>a</reg>
+                    </choice> Pedro alvarez de oñate de las tierras<lb/> que <choice>
+                        <orig>ay</orig>
+                        <reg>hay</reg>
+                    </choice> desde el savalo a las cavesadas del <choice>
+                        <orig>rrio</orig>
+                        <reg>río</reg>
+                    </choice> de man<lb break="no"/>tua con sus faldas y mangas y por que a su <choice>
+                        <abbr>ss<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>señoría</expan>
+                    </choice>
+                    <choice>
+                        <orig>lees</orig>
+                        <reg>les es</reg>
+                    </choice> noto<lb break="no"/>rio <choice>
+                        <orig>á</orig>
+                        <reg>a</reg>
+                    </choice> muchos años que las <choice>
+                        <abbr>dhas</abbr>
+                        <expan>dichas</expan>
+                    </choice>
+                    <choice>
+                        <orig>haziendas</orig>
+                        <reg>haciendas</reg>
+                    </choice> las saquea<lb/> e <choice>
+                        <orig>ynbasiona</orig>
+                        <reg>invasiona</reg>
+                    </choice> el pirata <choice>
+                        <orig>yngles</orig>
+                        <reg>inglés</reg>
+                    </choice> matando y <choice>
+                        <orig>rroban<lb break="no"/>do</orig>
+                        <reg>robando</reg>
+                    </choice> los ganados y <choice>
+                        <orig>llevandole</orig>
+                        <reg>llevándole</reg>
+                    </choice> como <choice>
+                        <orig>lean</orig>
+                        <reg>le han</reg>
+                    </choice>
+                    <choice>
+                        <orig>llebado</orig>
+                        <reg>llevado</reg>
+                    </choice>
+                    <choice>
+                        <orig>despues</orig>
+                        <reg>después</reg>
+                    </choice><lb/> que las <choice>
+                        <orig>possee</orig>
+                        <reg>posee</reg>
+                    </choice>
+                    <choice>
+                        <orig>dies</orig>
+                        <reg>diez</reg>
+                    </choice> y seis esclavos sin que por ninguna ma<lb break="no"/>nera <choice>
+                        <orig>aya</orig>
+                        <reg>haya</reg>
+                    </choice> podido remediarlo y por que pretende en<lb/> los terminos referidos de <choice>
+                        <abbr>dhas</abbr>
+                        <expan>dichas</expan>
+                    </choice> haciendas y en las par<lb break="no"/>tes que sea <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice>
+                    <choice>
+                        <orig>conbeniente</orig>
+                        <reg>conveniente</reg>
+                    </choice> mudar parte de las <choice>
+                        <abbr>dhas</abbr>
+                        <expan>dichas</expan>
+                    </choice><lb/> haciendas <choice>
+                        <orig>assi</orig>
+                        <reg>asi</reg>
+                    </choice> para que no esten despobladas como para<lb/> buscar medio para soldar
+                    parte del daño referido y<lb/> para poder <choice>
+                        <orig>haçer</orig>
+                        <reg>hacer</reg>
+                    </choice>
+                    <choice>
+                        <abbr>dhas</abbr>
+                        <expan>dichas</expan>
+                    </choice>
+                    <choice>
+                        <orig>poblassiones</orig>
+                        <reg>poblaciones</reg>
+                    </choice> se sirva Su <choice>
+                        <orig>ss<hi rendition="#sup">a</hi>.</orig>
+                        <reg>señoria</reg>
+                    </choice> de con<lb break="no"/>cederle <choice>
+                        <orig>lissencia</orig>
+                        <reg>licencia</reg>
+                    </choice> para poder mudar <choice>
+                        <abbr>dhas</abbr>
+                        <expan>dichas</expan>
+                    </choice>
+                    <choice>
+                        <orig>poblassiones</orig>
+                        <reg>poblaciones</reg>
+                    </choice><lb/> dentro del termino de <choice>
+                        <abbr>dhas</abbr>
+                        <expan>dichas</expan>
+                    </choice> haciendas y tierras del<lb/> Savalo sin adquirir <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice> termino del que a <choice>
+                        <orig>poseydo</orig>
+                        <reg>poseido</reg>
+                    </choice><lb/> y posee como <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice> largamente consta de <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice><lb/> a la <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> se acordo que se le <choice>
+                        <orig>conzede</orig>
+                        <reg>concede</reg>
+                    </choice> la <choice>
+                        <orig>lissenzia</orig>
+                        <reg>licencia</reg>
+                    </choice> que pide<lb/>
+                </p>
+            </div>
+            <div>
+                <pb n="2v" facs="actorig0009.tif"/>
+                <p> para mudar las <choice>
+                        <abbr>dhas.</abbr>
+                        <expan>dichas</expan>
+                    </choice>
+                    <choice>
+                        <orig>poblassiones</orig>
+                        <reg>poblaciones</reg>
+                    </choice> sin adquirir <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice> tierra<lb/> de la que le esta concedida y sin <choice>
+                        <orig>perjuizio</orig>
+                        <reg>prejuicio</reg>
+                    </choice>
+                    <choice>
+                        <orig>publico</orig>
+                        <reg>público</reg>
+                    </choice> ni de ter<lb break="no"/>cero y se haga <choice>
+                        <orig>saver</orig>
+                        <reg>saber</reg>
+                    </choice> a los <choice>
+                        <orig>sircunbezinos</orig>
+                        <reg>circunvecinos</reg>
+                    </choice><lb/>
+                </p>
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <abbr>Pett<hi rendition="#sup">on</hi>.</abbr>
+                            <expan>Petición</expan>
+                        </choice> de <choice>
+                            <abbr>D<hi rendition="#sup">a</hi>.</abbr>
+                            <expan>Doña</expan>
+                        </choice> Leonor<lb/> Rezio </p></note>
+
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <abbr>S<hi rendition="#sup">e</hi>.</abbr>
+                            <expan>Siguiente</expan>
+                        </choice> el <choice>
+                            <abbr>repartim<hi rendition="#sup">to</hi>.</abbr>
+                            <expan>repartimiento</expan>
+                        </choice> de<lb/> carne de <choice>
+                            <orig>Baca</orig>
+                            <reg>Vaca</reg>
+                        </choice>
+                        <choice>
+                            <abbr>q</abbr>
+                            <expan>que</expan>
+                        </choice><lb/> se le hizo </p></note>
+                <p> En este <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice>
+                    <choice>
+                        <orig>pressento</orig>
+                        <reg>presento</reg>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice>
+                    <choice>
+                        <abbr>D<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>Doña</expan>
+                    </choice> Leonor <choice>
+                        <orig>Rezio</orig>
+                        <reg>Recio</reg>
+                    </choice><lb/> viuda vecina <choice>
+                        <orig>desta</orig>
+                        <reg>de esta</reg>
+                    </choice> ciudad en que <choice>
+                        <orig>dize</orig>
+                        <reg>dice</reg>
+                    </choice> que por uno de<lb/> los acuerdos de su <choice>
+                        <abbr>ss<hi rendition="#sup">a</hi></abbr>
+                        <expan>señoría</expan>
+                    </choice> el <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice> que sean hecho en esta<lb/>
+                    <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> ciudad en orden a la carne de <choice>
+                        <orig>baca</orig>
+                        <reg>vaca</reg>
+                    </choice> que <choice>
+                        <orig>sea</orig>
+                        <reg>se ha</reg>
+                    </choice> de <choice>
+                        <orig>pessar</orig>
+                        <reg>pesar</reg>
+                    </choice><lb/> en la <choice>
+                        <orig>carniceria</orig>
+                        <reg>carnicería</reg>
+                    </choice> se le <choice>
+                        <orig>rrepartio</orig>
+                        <reg>repartío</reg>
+                    </choice>
+                    <choice>
+                        <orig>sinco</orig>
+                        <reg>cinco</reg>
+                    </choice>
+                    <choice>
+                        <orig>dias</orig>
+                        <reg>días</reg>
+                    </choice>
+                    <choice>
+                        <orig>deste</orig>
+                        <reg>de este</reg>
+                    </choice>
+                    <date when="1670-09-11" calendar="#Gregorian"><choice>
+                            <orig>onze</orig>
+                            <reg>once</reg>
+                        </choice><lb/> de septiembre</date> hasta <choice>
+                        <orig>dies</orig>
+                        <reg>diez</reg>
+                    </choice> y seis de este año que corre<lb/> y como dueña del hato San Pedro se
+                    le hizo <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> repar<lb break="no"/>timiento y por las muchas aguas y <choice>
+                        <orig>abenidas</orig>
+                        <reg>avenidas</reg>
+                    </choice> del <choice>
+                        <orig>rrio</orig>
+                        <reg>río</reg>
+                    </choice> que<lb/> llaman de Santa Catalina <choice>
+                        <orig>sele</orig>
+                        <reg>se le</reg>
+                    </choice>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>ha</reg>
+                    </choice>
+                    <choice>
+                        <orig>anegado</orig>
+                        <reg>negado</reg>
+                    </choice> todas las tie<lb break="no"/>rras y <choice>
+                        <orig>savana</orig>
+                        <reg>sabana</reg>
+                    </choice> del <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <orig>hatto</orig>
+                        <reg>hato</reg>
+                    </choice> con que se <choice>
+                        <orig>lean</orig>
+                        <reg>le han</reg>
+                    </choice> muerto<lb/> todos los ganados y bestias por <choice>
+                        <orig>cuia</orig>
+                        <reg>cuya</reg>
+                    </choice>
+                    <choice>
+                        <orig>caussa</orig>
+                        <reg>causa</reg>
+                    </choice> esta despoblado<lb/> y <choice>
+                        <orig>assi</orig>
+                        <reg>así</reg>
+                    </choice> suplica a <choice>
+                        <abbr>suss<hi rendition="#sup">a</hi></abbr>
+                        <expan>su señoría</expan>
+                    </choice> se sirva de mandar que quede libre<lb/> de <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> repartimiento y a mayor abundamiento <choice>
+                        <orig>ofreze</orig>
+                        <reg>ofrece</reg>
+                    </choice><lb/>
+                    <choice>
+                        <orig>ynformassion</orig>
+                        <reg>información</reg>
+                    </choice> de lo que lleva declarado como <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice> largamen<lb break="no"/>te consta de <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice> a la <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> se <choice>
+                        <orig>acordo</orig>
+                        <reg>acordó</reg>
+                    </choice> = que no<lb/> a lugar y que cumpla con el <choice>
+                        <orig>rrepartimiento</orig>
+                        <reg>repartimiento</reg>
+                    </choice> que le<lb/> esta hecho sola pena <choice>
+                        <orig>ynpuesta</orig>
+                        <reg>impuesta</reg>
+                    </choice> de veinte y <choice>
+                        <orig>sinco</orig>
+                        <reg>cinco</reg>
+                    </choice> pesos<lb/> cada <choice>
+                        <orig>dia</orig>
+                        <reg>día</reg>
+                    </choice> de los que faltare y <choice>
+                        <orig>assi</orig>
+                        <reg>así</reg>
+                    </choice> se acordó<lb/>
+                </p>
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <abbr>Pett<hi rendition="#sup">on</hi>.</abbr>
+                            <expan>Petición</expan>
+                        </choice> del <choice>
+                            <abbr>capp<hi rendition="#sup">n</hi>.</abbr>
+                            <expan>capitán</expan>
+                        </choice><lb/> Juan Gonzalez<lb/>
+                        <choice>
+                            <abbr>s<hi rendition="#sup">e</hi>.</abbr>
+                            <expan>siguiente</expan>
+                        </choice> el <choice>
+                            <abbr>repatim<hi rendition="#sup">to</hi></abbr>
+                            <expan>repartimiento</expan>
+                        </choice><lb/>
+                        <choice>
+                            <abbr>q</abbr>
+                            <expan>que</expan>
+                        </choice> se le hizo de la<lb/> carne de <choice>
+                            <orig>Baca</orig>
+                            <reg>Vaca</reg>
+                        </choice>
+                    </p></note>
+                <p> En este <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice>
+                    <choice>
+                        <orig>pressento</orig>
+                        <reg>presento</reg>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice> el <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <orig>capitan</orig>
+                        <reg>capitán</reg>
+                    </choice><lb/> Juan gonzalez de <choice>
+                        <orig>Carvaxal</orig>
+                        <reg>Carvajal</reg>
+                    </choice> por la <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice>
+                    <choice>
+                        <orig>dize</orig>
+                        <reg>dice</reg>
+                    </choice> que por el<lb/> mes de febrero de este <choice>
+                        <orig>pressente</orig>
+                        <reg>presente</reg>
+                    </choice> año se le <choice>
+                        <orig>notifico</orig>
+                        <reg>notificó</reg>
+                    </choice> un<lb/> repartimiento <unclear reason="illegible" cert="high"
+                        >fho</unclear> por los <choice>
+                        <orig>Juesses</orig>
+                        <reg>Jueces</reg>
+                    </choice>
+                    <choice>
+                        <orig>Comissarios</orig>
+                        <reg>Comisarios</reg>
+                    </choice> de este año<lb/> para que <choice>
+                        <orig>traxesse</orig>
+                        <reg>trajesé</reg>
+                    </choice> ganado <choice>
+                        <orig>bacuno</orig>
+                        <reg>vacuno</reg>
+                    </choice> para el abasto de<lb/> esta ciudad desde seis de septiembre hasta <choice>
+                        <orig>onze</orig>
+                        <reg>once</reg>
+                    </choice><lb/> de <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> mes en cuya <choice>
+                        <orig>execussion</orig>
+                        <reg>ejecución</reg>
+                    </choice> remitió <choice>
+                        <orig>horden</orig>
+                        <reg>orden</reg>
+                    </choice><lb/> a los <choice>
+                        <orig>hattos</orig>
+                        <reg>hatos</reg>
+                    </choice> que tiene en guane para que se <choice>
+                        <orig>recoxiesse</orig>
+                        <reg>recogiese</reg>
+                    </choice><lb/> y <choice>
+                        <orig>cumpliesse</orig>
+                        <reg>cumpliese</reg>
+                    </choice> el <choice>
+                        <orig>horden</orig>
+                        <reg>orden</reg>
+                    </choice> de su <choice>
+                        <abbr>ss<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>señoría</expan>
+                    </choice> y en ninguno de los<lb/>
+                    <choice>
+                        <orig>sinco</orig>
+                        <reg>cinco</reg>
+                    </choice> hatos que <choice>
+                        <orig>possee</orig>
+                        <reg>posee</reg>
+                    </choice>
+                    <choice>
+                        <orig>sea</orig>
+                        <reg>se ha</reg>
+                    </choice> hallado ganado alguno </p>
+            </div>
+            <div>
+                <pb n="3r" facs="actorig00010.tif"/>
+                <fw type="folNum">629r</fw>
+                <p> por <choice>
+                        <orig>haverle</orig>
+                        <reg>haberle</reg>
+                    </choice> muerto y <choice>
+                        <orig>ahujentado</orig>
+                        <reg>ahuyentado</reg>
+                    </choice> el enemigo con las<lb/> continuadas <choice>
+                        <orig>ynbaciones</orig>
+                        <reg>invasiones</reg>
+                    </choice> que en ellos <choice>
+                        <orig>haze</orig>
+                        <reg>hace</reg>
+                    </choice> que por ser<lb/> público y notorio le <choice>
+                        <orig>rreleva</orig>
+                        <reg>revela</reg>
+                    </choice> de <choice>
+                        <orig>prueva</orig>
+                        <reg>prueba</reg>
+                    </choice> y supuesto que no<lb/> esta de su parte la <choice>
+                        <orig>dilixenzia</orig>
+                        <reg>diligencia</reg>
+                    </choice> ni menos la <choice>
+                        <orig>conzervasion</orig>
+                        <reg>conservación</reg>
+                    </choice><lb/> de <choice>
+                        <abbr>dhas</abbr>
+                        <expan>dichas</expan>
+                    </choice> haciendas se sirva Su <choice>
+                        <abbr>ss<hi rendition="#sup">a</hi></abbr>
+                        <expan>señoría</expan>
+                    </choice> de suspender y que se le<lb/> suspenda el <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> repartimiento que se lea <unclear reason="illegible" cert="high"
+                        >fho</unclear> su<lb/> puesto que no esta de su parte su cumplimiento como
+                    de<lb/> la <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>petission</orig>
+                        <reg>petición</reg>
+                    </choice> mas largamente consta = a lo <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice><lb/> se <choice>
+                        <orig>acordo</orig>
+                        <reg>acordó</reg>
+                    </choice> que no a lugar y que cumpla con el <choice>
+                        <orig>rrepartimien<lb break="no"/>to</orig>
+                        <reg>repartimiento</reg>
+                    </choice> que le está hecho sola pena <choice>
+                        <orig>ympuesta</orig>
+                        <reg>impuesta</reg>
+                    </choice> de veinte<lb/> y <choice>
+                        <orig>sinco</orig>
+                        <reg>cinco</reg>
+                    </choice>
+                    <choice>
+                        <orig>pessos</orig>
+                        <reg>pesos</reg>
+                    </choice> cada <choice>
+                        <orig>dia</orig>
+                        <reg>día</reg>
+                    </choice> de los que faltare y asi se <choice>
+                        <orig>acordo</orig>
+                        <reg>acordó</reg>
+                    </choice>
+                </p>
+                <note place="left" hand="#author"><p>
+                        <choice>
+                            <orig>Proposission</orig>
+                            <reg>Proposición</reg>
+                        </choice><lb/> se el reparti<lb break="no"/>miento de car<lb break="no"/>ne
+                        de <choice>
+                            <orig>baca</orig>
+                            <reg>vaca</reg>
+                        </choice>
+                    </p></note>
+                <p> El <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> señor Don <choice>
+                        <orig>Sevastian</orig>
+                        <reg>Sebastian</reg>
+                    </choice> Calvo a <choice>
+                        <orig>viendose</orig>
+                        <reg>viendosé</reg>
+                    </choice>
+                    <choice>
+                        <orig>leydo</orig>
+                        <reg>leído</reg>
+                    </choice><lb/> las dos <choice>
+                        <orig>petissiones</orig>
+                        <reg>peticiones</reg>
+                    </choice> antecedentes que tratan sobre el <choice>
+                        <orig>rre<lb break="no"/>partimiento</orig>
+                        <reg>repartimiento</reg>
+                    </choice> de carne de <choice>
+                        <orig>baca</orig>
+                        <reg>vaca</reg>
+                    </choice>
+                    <choice>
+                        <orig>propusso</orig>
+                        <reg>propuso</reg>
+                    </choice> y <choice>
+                        <orig>dixo</orig>
+                        <reg>dijo</reg>
+                    </choice> que de <choice>
+                        <orig>executar<lb break="no"/>sse</orig>
+                        <reg>ejecutarse</reg>
+                    </choice> en adelante la pena que está <choice>
+                        <orig>ympuesta</orig>
+                        <reg>impuesta</reg>
+                    </choice> contra los que fal<lb break="no"/>taren a la <choice>
+                        <orig>obligassion</orig>
+                        <reg>obligación</reg>
+                    </choice> de <choice>
+                        <orig>dho</orig>
+                        <reg>dicho</reg>
+                    </choice> repartimiento que es de que<lb/> se <choice>
+                        <orig>pessara</orig>
+                        <reg>pesara</reg>
+                    </choice> a su costa la que se hallare en la Ciudad de <choice>
+                        <orig>rresses</orig>
+                        <reg>reses</reg>
+                    </choice> ma<lb break="no"/>rranos o gallinas al mismo <choice>
+                        <orig>prezio</orig>
+                        <reg>precio</reg>
+                    </choice> de <choice>
+                        <orig>quatro</orig>
+                        <reg>cuatro</reg>
+                    </choice> libras al <choice>
+                        <orig>rreal</orig>
+                        <reg>real</reg>
+                    </choice><lb/> todo el tiempo que durare la falta de <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <orig>rrepartimiento</orig>
+                        <reg>repartimiento</reg>
+                    </choice><lb/> es el mucho daño que los Vecinos criadores de <choice>
+                        <abbr>dhos</abbr>
+                        <expan>dichos</expan>
+                    </choice> ganados<lb/> por ser muy <choice>
+                        <orig>exsesiva</orig>
+                        <reg>excesiva</reg>
+                    </choice> y los <choice>
+                        <orig>mas</orig>
+                        <reg>más</reg>
+                    </choice>
+                    <choice>
+                        <orig>dellos</orig>
+                        <reg>de los</reg>
+                    </choice> pobres que su <choice>
+                        <orig>pare<lb break="no"/>ser</orig>
+                        <reg>parecer</reg>
+                    </choice> es, se minore <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>condenassion</orig>
+                        <reg>condenación</reg>
+                    </choice> quedando en una pena<lb/> pecunaria y visto por esta Ciudad = Se <choice>
+                        <orig>acordo</orig>
+                        <reg>acordó</reg>
+                    </choice> que la <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice><lb/> pena solo se entienda de veinte y <choice>
+                        <orig>sinco</orig>
+                        <reg>cinco</reg>
+                    </choice>
+                    <choice>
+                        <orig>pessos</orig>
+                        <reg>pesos</reg>
+                    </choice> cada un<lb/>
+                    <choice>
+                        <orig>dia</orig>
+                        <reg>día</reg>
+                    </choice> en que <choice>
+                        <orig>yncurran</orig>
+                        <reg>incurran</reg>
+                    </choice> los que faltaren a la <choice>
+                        <orig>obligassion</orig>
+                        <reg>obligación</reg>
+                    </choice><lb/> de <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> repartimiento aplicados <choice>
+                        <orig>segun</orig>
+                        <reg>según</reg>
+                    </choice> las reales <choice>
+                        <orig>hor<lb break="no"/>denanças</orig>
+                        <reg>ordenanzas</reg>
+                    </choice> y que yo el presente <choice>
+                        <orig>scrivano</orig>
+                        <reg>escribano</reg>
+                    </choice>
+                    <choice>
+                        <orig>buelva</orig>
+                        <reg>vuelva</reg>
+                    </choice> a <choice>
+                        <orig>hazer</orig>
+                        <reg>hacer</reg>
+                    </choice>
+                    <choice>
+                        <orig>sa<lb break="no"/>ver</orig>
+                        <reg>saber</reg>
+                    </choice> el <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> repartimiento y pena nuevamente <choice>
+                        <orig>ympuesta</orig>
+                        <reg>impuesta</reg>
+                    </choice><lb/> a <choice>
+                        <abbr>dhos</abbr>
+                        <expan>dichos</expan>
+                    </choice> dueños de hatos y corrales y a los que al <choice>
+                        <orig>pressente</orig>
+                        <reg>presente</reg>
+                    </choice><lb/> los <choice>
+                        <orig>posseen</orig>
+                        <reg>poseeen</reg>
+                    </choice>
+                    <choice>
+                        <orig>despues</orig>
+                        <reg>después</reg>
+                    </choice> que se <choice>
+                        <orig>hisso</orig>
+                        <reg>hizo</reg>
+                    </choice> el <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> repartimiento<lb/> e <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> señor <choice>
+                        <orig>Capitan</orig>
+                        <reg>Capitán</reg>
+                    </choice> Don Pedro Valdespino dio <choice>
+                        <orig>quen<lb break="no"/>ta</orig>
+                        <reg>cuenta</reg>
+                    </choice> de que respecto de <choice>
+                        <orig>haver</orig>
+                        <reg>haber</reg>
+                    </choice> entrado dos navios de <choice>
+                        <orig>yslas</orig>
+                        <reg>islas</reg>
+                    </choice><lb/> con vinos lo bajo <choice>
+                        <orig>ados</orig>
+                        <reg>a dos</reg>
+                    </choice> reales y medio por estar <choice>
+                        <orig>atres</orig>
+                        <reg>a tres</reg>
+                    </choice>
+                </p>
+
+            </div>
+            <div>
+                <pb n="3v" facs="actorig00011.tif"/>
+                <p> Y visto por esta Ciudad = <choice>
+                        <orig>dixeron</orig>
+                        <reg>dijeron</reg>
+                    </choice> que aprueban y de<lb break="no"/>claran por bien hecha la <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>baxa</orig>
+                        <reg>baja</reg>
+                    </choice> = Y <choice>
+                        <orig>assi</orig>
+                        <reg>asi</reg>
+                    </choice> mis<lb break="no"/>mo dio <choice>
+                        <orig>quentta</orig>
+                        <reg>cuenta</reg>
+                    </choice> de que ha hallado en las tavernas <choice>
+                        <orig>algun</orig>
+                        <reg>algún</reg>
+                    </choice><lb/> vino en pipas del que <choice>
+                        <orig>tenian</orig>
+                        <reg>tenían</reg>
+                    </choice>
+                    <choice>
+                        <abbr>dhos</abbr>
+                        <expan>dichos</expan>
+                    </choice> taverneros antes<lb/> y <choice>
+                        <orig>reconossió</orig>
+                        <reg>reconocio</reg>
+                    </choice> ser de mala calidad por estar avinagrados<lb/> que le <choice>
+                        <orig>pareçe</orig>
+                        <reg>parece</reg>
+                    </choice> sera <choice>
+                        <orig>conbeniente</orig>
+                        <reg>convenientr</reg>
+                    </choice> se quite por el daño que pue<lb break="no"/>de <choice>
+                        <orig>ocassionar</orig>
+                        <reg>ocasionar</reg>
+                    </choice> = a lo <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> se <choice>
+                        <orig>acordo</orig>
+                        <reg>acordó</reg>
+                    </choice> por esta Ciudad haga<lb/> visita de tavernas y el que hallare de <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> forma lo haga<lb/> sacar y que lo <choice>
+                        <orig>rreciva</orig>
+                        <reg>reciba</reg>
+                    </choice> el dueño o lo <choice>
+                        <orig>rrebaxe</orig>
+                        <reg>rebaje</reg>
+                    </choice> lo que importare </p>
+                <note place="left" hand="#author"><p> Mrd. <choice>
+                            <orig>ama</orig>
+                            <reg>a Ma</reg>
+                        </choice><lb break="no"/>nuel alvarez<lb/> del sitio El ojo<lb/>
+                        <choice>
+                            <orig>delagua</orig>
+                            <reg>del agua</reg>
+                        </choice> del<lb/> ramon </p></note>
+                <p> Yo el <choice>
+                        <orig>scrivano</orig>
+                        <reg>escrivano</reg>
+                    </choice>
+                    <choice>
+                        <orig>hize</orig>
+                        <reg>hice</reg>
+                    </choice>
+                    <choice>
+                        <orig>relassion</orig>
+                        <reg>relación</reg>
+                    </choice> a <choice>
+                        <abbr>suss<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>su señoría</expan>
+                    </choice> de los <choice>
+                        <orig>auttos</orig>
+                        <reg>autos</reg>
+                    </choice> y <choice>
+                        <orig>contra<lb break="no"/>dission</orig>
+                        <reg>contradicción</reg>
+                    </choice>
+                    <choice>
+                        <abbr>fha</abbr>
+                        <expan>fecha</expan>
+                    </choice> por el <choice>
+                        <orig>thenientte</orig>
+                        <reg>teniente</reg>
+                    </choice> don Juan de Balmaseda<lb/> y por su muerte <choice>
+                        <abbr>D<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>Doña</expan>
+                    </choice> Catalina de palma su <choice>
+                        <orig>muger</orig>
+                        <reg>mujer</reg>
+                    </choice> como<lb/> tutora y curadora de sus hijos y del <choice>
+                        <orig>sussodho</orig>
+                        <reg>susodicho</reg>
+                    </choice> a la <choice>
+                        <orig>merzed</orig>
+                        <reg>merced</reg>
+                    </choice><lb/> pedida por Manuel Alvarez del sitio nombrado El ojo del<lb/> agua
+                    del <choice>
+                        <orig>rramon</orig>
+                        <reg>ramon</reg>
+                    </choice>
+                    <choice>
+                        <orig>treintay</orig>
+                        <reg>treinta y</reg>
+                    </choice> dos leguas a barlovento distan<lb break="no"/>te de esta Ciudad y del <choice>
+                        <orig>pareser</orig>
+                        <reg>parecer</reg>
+                    </choice> dado por los Señores <choice>
+                        <orig>Comissa<lb break="no"/>rios</orig>
+                        <reg>Comisarios</reg>
+                    </choice> don <choice>
+                        <orig>Sevastian</orig>
+                        <reg>Sebastian</reg>
+                    </choice> Calvo <choice>
+                        <orig>delapuerta</orig>
+                        <reg>de la puerta</reg>
+                    </choice> y Capitan don<lb/> Hilario de estrada con <choice>
+                        <orig>pareser</orig>
+                        <reg>paracer</reg>
+                    </choice> del <choice>
+                        <orig>lissenziado</orig>
+                        <reg>licenciado</reg>
+                    </choice> don Pedro<lb/> Beltran de Santa cruz <choice>
+                        <orig>assesor</orig>
+                        <reg>asesor</reg>
+                    </choice> nombrado para <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>caussa</orig>
+                        <reg>causa</reg>
+                    </choice><lb/> en que <choice>
+                        <orig>conbienen</orig>
+                        <reg>convienen</reg>
+                    </choice> que siendo <choice>
+                        <abbr>suss<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>su señoría</expan>
+                    </choice> servido le puede <choice>
+                        <orig>hazer</orig>
+                        <reg>hacer</reg>
+                    </choice><lb/>
+                    <choice>
+                        <orig>merçed</orig>
+                        <reg>merced</reg>
+                    </choice> del <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> sitio el ojo del agua del <choice>
+                        <orig>rramon</orig>
+                        <reg>ramon</reg>
+                    </choice><lb/> para que lo pueble de ganado menor para el mayor abasto<lb/> de
+                    esta Ciudad y de sus <choice>
+                        <abbr>R<hi rendition="#sup">s</hi>.</abbr>
+                        <expan>Regidores</expan>
+                    </choice>
+                    <choice>
+                        <orig>harmadas</orig>
+                        <reg>armadas</reg>
+                    </choice> poblandolo den<lb break="no"/>tro del término de las <choice>
+                        <orig>hordenanzas</orig>
+                        <reg>ordenanzas</reg>
+                    </choice> y sola pena <choice>
+                        <orig>dellas</orig>
+                        <reg>de ellas</reg>
+                    </choice><lb/> y que en <choice>
+                        <orig>quanto</orig>
+                        <reg>cuanto</reg>
+                    </choice> al <choice>
+                        <orig>ofresimiento</orig>
+                        <reg>ofrecimiento</reg>
+                    </choice> que hizo de doscientos<lb/>
+                    <choice>
+                        <orig>pessos</orig>
+                        <reg>pesos</reg>
+                    </choice> a esta Ciudad para ayuda a los gastos <choice>
+                        <orig>della</orig>
+                        <reg>de ella</reg>
+                    </choice><lb/> atento a su <choice>
+                        <orig>inpossibilidad</orig>
+                        <reg>imposibilidad</reg>
+                    </choice> los imponga el <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> Ma<lb break="no"/>nuel Alvarez a <choice>
+                        <orig>sensso</orig>
+                        <reg>senso</reg>
+                    </choice> sobre la <choice>
+                        <abbr>dha</abbr>
+                        <expan>dicha</expan>
+                    </choice> finca de <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice><lb/> corral para los propios <choice>
+                        <orig>della</orig>
+                        <reg>de ella</reg>
+                    </choice>=Y visto por <choice>
+                        <abbr>suss<hi rendition="#sup">a</hi>.</abbr>
+                        <expan>su señoría</expan>
+                    </choice> la<lb/>
+                    <choice>
+                        <abbr>dha.</abbr>
+                        <expan>dicha</expan>
+                    </choice>
+                    <choice>
+                        <orig>relassion</orig>
+                        <reg>relación</reg>
+                    </choice> y <choice>
+                        <orig>parezer</orig>
+                        <reg>parecer</reg>
+                    </choice> todos unanimes y conformes<lb/>
+                    <choice>
+                        <orig>dixeron</orig>
+                        <reg>dijeron</reg>
+                    </choice> que le hacian <choice>
+                        <sic>y</sic>
+                        <corr cert="high">e</corr>
+                    </choice>
+                    <choice>
+                        <orig>hizieron</orig>
+                        <reg>hicieron</reg>
+                    </choice>
+                    <choice>
+                        <orig>merzed</orig>
+                        <reg>merced</reg>
+                    </choice> al <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice><lb/> Manuel Alvarez del <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> sitio del ojo del agua del<lb/> ramon para que dentro del termino de
+                    las orde</p>
+            </div>
+            <div>
+                <pb n="4r" facs="actorig00012.tif"/>
+                <fw type="folNum">630r</fw>
+                <p> nanzas lo pueble de ganado menor sola pena <choice>
+                        <orig>della</orig>
+                        <reg>de ella</reg>
+                    </choice> pagando<lb/> para los propios de esta Ciudad lo acostumbrado y que <choice>
+                        <orig>ynpon<lb break="no"/>ga</orig>
+                        <reg>imponga</reg>
+                    </choice> como <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice> es para los propios <choice>
+                        <orig>della</orig>
+                        <reg>de ella</reg>
+                    </choice> los <choice>
+                        <abbr>dhos</abbr>
+                        <expan>dichos</expan>
+                    </choice>
+                    <choice>
+                        <orig>duscientos</orig>
+                        <reg>doscientos</reg>
+                    </choice><lb/>
+                    <choice>
+                        <orig>pessos</orig>
+                        <reg>pesos</reg>
+                    </choice> sobre la <choice>
+                        <orig>mesma</orig>
+                        <reg>misma</reg>
+                    </choice> finca y que el <choice>
+                        <orig>scrivano</orig>
+                        <reg>escribano</reg>
+                    </choice> propietario<lb/> no de titulo a la parte de esta <choice>
+                        <orig>merzed</orig>
+                        <reg>merced</reg>
+                    </choice> hasta tanto<lb/> traiga <choice>
+                        <orig>certificassion</orig>
+                        <reg>certificación</reg>
+                    </choice> de la Real Contaduria <choice>
+                        <orig>deaver</orig>
+                        <reg>de haber</reg>
+                    </choice> pa<lb break="no"/>gado la <seg type="comment"><orig>media
+                            anata</orig><note xml:id="ni4c_dkp_hyb">Derecho pagado al ingreso de
+                            cualquier beneficio eclesiástic, pensión o empleo secular,
+                            correspondiente a la mitad de lo que produce en un año</note></seg> =
+                    con lo <choice>
+                        <orig>qual</orig>
+                        <reg>cual</reg>
+                    </choice> se <choice>
+                        <orig>acavo</orig>
+                        <reg>acabo</reg>
+                    </choice>
+                    <choice>
+                        <abbr>dho</abbr>
+                        <expan>dicho</expan>
+                    </choice>
+                    <choice>
+                        <orig>cavildo</orig>
+                        <reg>cabildo</reg>
+                    </choice><lb/> Francisco Rodriguez de Ledesma<lb/> Joseph Ruiz Guillen<lb/> Juan
+                    Vicente de Pedroso<lb/> Diego de Soto<lb/> Ante mi Pedro del Rio </p>
+            </div>
+            <div type="trasuntada">
+                <pb/>
+                <p>To do: Edición "trasuntada"</p>
+            </div>
+        </body>
+    </text>
+</TEI>
